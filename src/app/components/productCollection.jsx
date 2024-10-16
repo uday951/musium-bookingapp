@@ -9,7 +9,7 @@ const ProductCollection = () => {
   const collectionHandler = async () => {
     try {
       console.log("Fetching data...");
-      const response = await fetch("http://localhost:3000/api/admin/add-product");
+      const response = await fetch("https://resort-booking-roqm.vercel.app//api/admin/add-product");
       console.log("Response status:", response.status);
       if (!response.ok) {
         throw new Error("Network response was not ok");
