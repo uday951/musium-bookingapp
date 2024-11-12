@@ -6,6 +6,8 @@ import { redirect } from 'next/navigation'; // Import redirect function
 import UserNavigation from './components/UserNavigation';
 import Adminpage from './admin/page'; 
 import ProductCollection from './components/productCollection';
+import Chatbot from './components/chatbot'; // Adjust the path if necessary
+import BotIcon from './components/buttonIcon'; 
 
 const Homepage = async () => {
   const session = await getServerSession(authOptions);
@@ -27,6 +29,9 @@ const Homepage = async () => {
           <UserNavigation userName={userName} />
           <h2>Welcome to my page</h2>
           <ProductCollection/>
+          {/* Mount the Chatbot component */}
+          <BotIcon/>
+          
         </>
       )}
       {session.role === 'admin' && (

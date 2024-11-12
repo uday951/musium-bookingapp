@@ -1,0 +1,224 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/components.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+
+
+
+.components_formContainer__bFBnf{
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.components_formSection__ngI0H{
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 30px 20px;
+    background:rgb(114, 109, 109)
+}
+.components_formSection__ngI0H h3{
+    
+    width:80%;
+    margin-bottom: 5px;
+
+}
+.components_input__L6N5h{
+    font-size: 1.2rem;
+    width:80%;
+    height:2.2rem;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.components_regBtn__77f_B{
+    padding: 10px 50px;
+    background: rgb(76, 70, 141);
+    color: white;
+}
+
+/* add product form  */
+.components_container__Zpovh{
+    height:100vh;
+}
+.components_container__Zpovh h1{
+        margin: 10px 50px;
+}
+
+.components_container__Zpovh h3{
+    margin-bottom: 5px;
+}
+.components_fields__5iy02{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px
+}
+.components_container__Zpovh input{
+    height: 30px;
+    width: 400px;
+    font-size: 1.2rem;
+    padding-left: 10px;
+}
+.components_textField__1PkQw{
+    display: flex;
+    flex-direction: column;
+    padding: 0 180px;
+}
+.components_container__Zpovh button{
+    padding: 10px 50px;
+    background: rgb(32, 32, 95);
+    color: white;
+}
+.components_submit__dQJWw{
+    text-align: center;
+}
+
+
+.components_container__Zpovh {
+    display: flex;
+    height: 100vh;
+    background-color: #fff;
+    font-family: Arial, sans-serif; /* Optional for consistent styling */
+  }
+  
+  /* Sidebar styles */
+  .components_sidebar__bdzG6 {
+    width: 20%;
+    background: #e0e0e0;
+    padding: 15px;
+    overflow-y: auto;
+    border-right: 2px solid #ccc;
+  }
+  
+  .components_sidebar__bdzG6 h3 {
+    margin-bottom: 20px;
+  }
+  
+  .components_dataRow__IiyCw {
+    background: #a0a0a0;
+    margin: 5px 0;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  /* Main content styles */
+  .components_mainContent__RDNY9 {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Top-aligns the content */
+    padding: 20px;
+  }
+  
+  /* Top buttons container */
+  .components_topButtons__NBfzw {
+    display: flex;
+    gap: 15px;
+    margin-left: 500px;
+    margin-bottom: 25px;
+  }
+  
+  .components_topButton__MpROw {
+    padding: 10px 20px;
+    background: #3c3b6e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .components_topButton__MpROw:hover {
+    background: #2c2b5e;
+  }
+  
+  /* Chatbot display container */
+  .components_chatbotDisplay__XNl51 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background: white;
+    border-radius: 10px;
+    
+    max-width: 600px; /* Adjusts the width of the main chat section */
+    width: 200%;
+    margin: 0 auto;
+  }
+  
+  .components_chatbotImage__LH0Wh {
+    width: 350px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .components_chatBubble__mOAEa {
+    margin-top: 10px;
+    background: #b2ffb2;
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Chat input field styles */
+  .components_chatInput__BlUr6 {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .components_inputField__6Kuat {
+    flex: 1 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px 0 0 15px;
+    outline: none;
+  }
+  
+  .components_micButton__RXSaS {
+    padding: 10px;
+    background: #3c3b6e;
+    color: white;
+    border: 1px solid #3c3b6e;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+  }
+  
+/*button icon*/
+.components_botButton__69wOM {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.components_botImage__XyvOs {
+  width: 60px;
+  height: 60px;
+}
+
+.components_chatbotContainer__WX_PW {
+  position: fixed;
+  top: 90px;
+  bottom: 550px;
+  left: 20px;
+  right: 50px;
+  width: 1400px; /* Adjust width as needed */
+  height: 200px; /* Adjust height as needed */
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+

@@ -12,7 +12,7 @@ const AdminPage = async () => {
   if (!session) {
     redirect('/login'); // Use next/navigation's redirect for server-side redirection
   }
-
+  
   return (
     <div>
       {session ? (

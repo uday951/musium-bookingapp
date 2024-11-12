@@ -73,3 +73,148 @@
 .submit{
     text-align: center;
 }
+
+
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: #fff;
+    font-family: Arial, sans-serif; /* Optional for consistent styling */
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    width: 20%;
+    background: #e0e0e0;
+    padding: 15px;
+    overflow-y: auto;
+    border-right: 2px solid #ccc;
+  }
+  
+  .sidebar h3 {
+    margin-bottom: 20px;
+  }
+  
+  .dataRow {
+    background: #a0a0a0;
+    margin: 5px 0;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  /* Main content styles */
+  .mainContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Top-aligns the content */
+    padding: 20px;
+  }
+  
+  /* Top buttons container */
+  .topButtons {
+    display: flex;
+    gap: 15px;
+    margin-left: 500px;
+    margin-bottom: 25px;
+  }
+  
+  .topButton {
+    padding: 10px 20px;
+    background: #3c3b6e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .topButton:hover {
+    background: #2c2b5e;
+  }
+  
+  /* Chatbot display container */
+  .chatbotDisplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background: white;
+    border-radius: 10px;
+    
+    max-width: 600px; /* Adjusts the width of the main chat section */
+    width: 200%;
+    margin: 0 auto;
+  }
+  
+  .chatbotImage {
+    width: 350px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .chatBubble {
+    margin-top: 10px;
+    background: #b2ffb2;
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Chat input field styles */
+  .chatInput {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .inputField {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px 0 0 15px;
+    outline: none;
+  }
+  
+  .micButton {
+    padding: 10px;
+    background: #3c3b6e;
+    color: white;
+    border: 1px solid #3c3b6e;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+  }
+  
+/*button icon*/
+.botButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.botImage {
+  width: 60px;
+  height: 60px;
+}
+
+.chatbotContainer {
+  position: fixed;
+  top: 90px;
+  bottom: 550px;
+  left: 20px;
+  right: 50px;
+  width: 1400px; /* Adjust width as needed */
+  height: 200px; /* Adjust height as needed */
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
