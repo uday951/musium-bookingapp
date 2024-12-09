@@ -1,12 +1,13 @@
 import React from 'react';
 import Dbconnection from './utils/config/db';
+import { getServerSession } from 'next-auth/next';
+import { authOptions } from './auth';
 import { redirect } from 'next/navigation'; // Import redirect function
 import UserNavigation from './components/UserNavigation';
 import Adminpage from './admin/page'; 
 import ProductCollection from './components/productCollection';
+import Chatbot from './components/chatbot'; // Adjust the path if necessary
 import BotIcon from './components/buttonIcon'; 
-import { getServerSession } from 'next-auth';
-import { authOptions } from './auth';
 
 const Homepage = async () => {
   const session = await getServerSession(authOptions);
